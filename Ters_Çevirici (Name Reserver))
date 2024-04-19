@@ -1,0 +1,7 @@
+#İSMİMİZİ TERS ÇEVİREN KOD
+isim=input('lütfen isminizini giriniz')
+tersisim=[]
+for i in range(len(isim)-1, -1,-1) :
+    tersisim.append(isim[i])
+tersisim2=''.join(tersisim)
+print('ters çevrilmiş isimniz:{}'.format(tersisim2))
