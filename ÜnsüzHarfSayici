@@ -1,0 +1,8 @@
+#bir metindeki ünsüz harfleri sayan program
+metin=input('lütfen metni giriniz')
+unsuzharfler='bcçdfgğhjklmnprsştvyzBCÇDFGĞHJKLMNPRSŞTVYZ'
+unsuzsayisi=0
+for char in metin:
+       if char in unsuzharfler:
+           unsuzsayisi+=1
+print('bir metindeki ünsüz sayısı={}'.format(unsuzsayisi))
